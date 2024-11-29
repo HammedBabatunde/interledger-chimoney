@@ -10,7 +10,7 @@ p2p_transfer_blueprint = Blueprint('p2p_transfer', __name__)
 
 # Chimoney API details
 BASE_URL = "https://api-v2-sandbox.chimoney.io/v0.2"
-CHIMONEY_API_KEY = "a1aa8be5cc24ee75249799e7a86eb5c78a241cf7aa370e4648428acf92c48c4e"
+CHIMONEY_API_KEY = os.getenv("CHIMONEY_API_KEY")
 
 
 @p2p_transfer_blueprint.route('/p2p-transfer', methods=['POST'])
