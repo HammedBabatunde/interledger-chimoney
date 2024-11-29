@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify, request
 import requests
 import os
 
-BASE_URL = "https://api.chimoney.io/v0.2"
+BASE_URL = "https://api-v2-sandbox.chimoney.io/v0.2"
 CHIMONEY_API_KEY = os.getenv("CHIMONEY_API_KEY")
 
 verify_payment_blueprint = Blueprint('verify_payment', __name__)

@@ -3,6 +3,7 @@ from endpoints.create_user import create_user_blueprint
 from endpoints.issue_pointer import issue_pointer_blueprint
 from endpoints.p2p_transfer import p2p_transfer_blueprint
 from endpoints.verify_payment import verify_payment_blueprint
+from endpoints.get_user_details import get_user_details_blueprint
 from dotenv import load_dotenv
 import os
 
@@ -16,6 +17,7 @@ app.register_blueprint(create_user_blueprint)
 app.register_blueprint(issue_pointer_blueprint)
 app.register_blueprint(p2p_transfer_blueprint)
 app.register_blueprint(verify_payment_blueprint)
+app.register_blueprint(get_user_details_blueprint)
 
 @app.route('/', methods=['GET'])
 def home():
