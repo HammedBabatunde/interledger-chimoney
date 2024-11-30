@@ -281,7 +281,20 @@ python app.py
 - Enter the JSON payload in the Body tab, using raw mode.
 - Send the request and check the response.
 
+
 ## Troubleshooting
 - Ensure .env is set up with a valid Chimoney API key.
 - Double-check request payload formatting.
 
+## Resources for My talk
+- [Chimoney API Documentation](https://chimoney.readme.io/reference/introduction)
+- Mojaloop:
+[Learn about Mojaloop's open-source platform for interoperable financial services.](https://mojaloop.io/)
+
+- Interledger Protocol (ILP):
+[Start building with Interledger and learn how it connects payment networks seamlessly.](https://interledger.org/developers/get-started/)
+- Mifos:
+[Discover Mifos' work in promoting financial inclusion through open-source banking.
+Visit Mifos](https://mifos.org/)
+- [Learn about Open Payment Standards](https://interledger.org/developers/blog/simple-open-payments-guide/)
+- [Google Slides for the talk](https://docs.google.com/presentation/d/1Jc8KqQGj10By4h4qlPiRN6zMOfd48H0QKtLPFhQvP-8/edit?usp=sharing)
